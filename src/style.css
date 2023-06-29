@@ -1,0 +1,611 @@
+*{
+    background-color: #008080;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    color: white;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+.navbar{
+    display: inline;
+    border-bottom: 3px solid black;
+    
+    
+}
+
+.navbar ul li a{
+    color: black;
+    margin: 10px;
+    justify-content: space-around;
+    display: flex;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+   background-color: black;
+   
+  
+   
+    
+}
+
+.home{
+    width: 100%;
+    height: 311px;
+    position: relative;
+    top: 77px;
+    padding: 139px;
+    padding-left: 70px;
+}
+.nameTitle h4 {
+    color: white;
+    font-family: fangsong;
+    font-size: 40px;
+    cursor: pointer;
+    width: 328px;
+}
+    
+
+.nameTitle h4:hover{
+    color: black;
+    font-family: fangsong;
+    border-bottom: 2px solid black;
+    width: 500px;
+} 
+.nameTitle{
+    font-size: 20px;
+    position: relative;
+    bottom: 77px;
+}
+.nameTitle p span{
+    color: #FFFAF0;
+}
+.nameTitle p span:hover{
+    color: black;
+}
+.Navtitle{
+    font-size: 29px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: white;
+}
+.Navtitle:hover{
+    color: #1C3630;
+}
+.intro1{
+    color: white;
+}
+.intro2{
+    color: white;
+}
+.downloadbtn{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 45px;
+    border-radius: 35px;
+    position: relative;
+    top: 25px;
+}
+.downloadbtn:hover{
+    background-color: white;
+    color:black ;
+    transition: 0.5s ease-in-out;
+}
+.downloadbtn a{
+    text-decoration: none;
+}
+.card{
+    border: 3px solid black;
+}
+.col{
+    position: relative;
+    top: 225px;
+    left: 65px;
+    width: 500px;
+}
+.Projectbtn{
+    width: 115px;
+    height: 35px;
+    border-radius: 27px;
+    position: relative;
+    right: 10px;
+    color: white;
+    background-color: black;
+}
+.Projectbtn:hover{
+    color: black;
+    background-color: white;
+}
+.card-title:hover{
+    color: black;
+    cursor: pointer;
+}
+.card-title{
+    color: white;
+  
+}
+.row{
+    position: relative;
+    top: 138px;
+    width: 1522px;
+    margin: -5px;
+    padding: 48px;
+    height: 188px;
+}
+.text-center{
+    background-color: black;
+}
+#copyright{
+    color: white;
+}
+.text-center{
+    background-color: #008080;
+}
+.namecopyright{
+    cursor: pointer;
+}
+.namecopyright:hover{
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid white;
+}
+p{
+    color: white;
+}
+.educationBtn{
+    background-color: black;
+    color: white;
+    width: 210px;
+    height: 45px;
+    border-radius: 35px;
+    margin: 10px;
+}
+.achievementsBtn{
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 45px;
+    border-radius: 35px;
+}
+.educationBtn:hover{
+    background-color: white;
+    color:black ;
+    transition: 0.5s ease-in-out;
+    
+}
+.achievementsBtn:hover{
+    background-color: white;
+    color:black ;
+    transition: 0.5s ease-in-out;
+}
+.EduDetail1{
+    background-color: white;
+}
+.accordion-body{
+    color: white;
+    
+}
+strong:hover{
+    color: black;
+}
+.year{
+    color: black;
+}
+footer{
+    height: 43px;
+    position: relative;
+   
+    top: 700px;
+}
+.projectTitle{
+    font-size: 46px;
+    font-family: fangsong;
+    color: white;
+}
+.projectTitle:hover{
+    color: black;
+   border-bottom: 2px solid black;
+}
+
+.projectTitle{
+    position: relative;
+    top: 141px;
+    width: 360px;
+    left: 57px;
+    height: 66px;
+}
+.Achievements{
+    width: 100%;
+    height: 311px;
+    position: relative;
+    top: 77px;
+    padding: 139px;
+    padding-left: 70px;
+}
+.AchievementsTitle h4{
+    color: white;
+    font-family: fangsong;
+    font-size: 40px;
+    cursor: pointer;
+    width: 180px;
+    
+} 
+.AchievementsTitle h4:hover{
+    color: black;
+    font-family: fangsong;
+    
+}
+
+.Skills{
+    width: 100%;
+    height: 311px;
+    position: relative;
+    top: 77px;
+    padding: 139px;
+    padding-left: 70px;
+}
+.skillsTitle{
+    position: relative;
+    bottom: 80px;
+}
+.skillsTitle h4{
+    color: white;
+    font-family: fangsong;
+    font-size: 40px;
+    cursor: pointer;
+    width: 180px;
+}
+.skillsTitle h4:hover{
+    color: black;
+    font-family: fangsong;
+    width: 500px;
+    border-bottom: 2px solid black
+}
+.skillsTitle{
+    height: 45px;
+    width: 108px;
+}
+.cardSkill1{
+    width: 330px;
+    border: 2px solid black;
+}
+#skillsBox{
+    width: 100%;
+    height: 800px;
+    background-color: red;
+}
+.Skillscontainer{
+    width: 1390px;
+    height: 700px;
+    border: 2px solid black;
+}
+ .row{
+    position: relative;
+    top: 180px;
+    width: 1329px;
+    margin: -5px;
+    padding: 48px;
+    height: 188px;
+    left: 32px;
+}
+.card1{
+    border: 2px solid black;
+    margin: 10px;
+    height: 200px;
+}
+.card2{
+    border: 2px solid black;
+    margin: 10px;
+}
+.card3{
+    border: 2px solid black;
+    margin: 10px;
+}
+.card4{
+    border: 2px solid black;
+    margin: 10px;
+}
+.card5{
+    border: 2px solid black;
+    margin: 10px;
+}
+.card6{
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    /* Adjust dimensions here */
+    .element {
+      width: 100%;
+      height: auto;
+    }
+    .home{
+        width: 50%;
+        height: 200px;
+       
+    }
+    .Navtitle {
+        font-size: 20px;
+        
+    }
+    .nameTitle  {
+        
+        width: 500px;
+        
+    }
+    .nameTitle h4 {
+    font-size: 26px;
+    }
+    .nameTitle .intro1 {
+        font-size: 17px;
+        width: 343px;
+    }
+    .nameTitle .intro2 {
+        font-size: 17px;
+        width: 343px;
+    }
+    .downloadbtn{
+        width: 80px;
+        height: 36px;
+        top: -70px;
+    }
+    .personaldetail h3 {
+        font-size: 18px;
+    position: relative;
+    top: -115px;
+    width: 370px;
+    }
+    .personaldetail .contactlabel {
+        font-size: 18px;
+        position: relative;
+        top: -115px;
+        width: 314px;
+    }
+    .text-center{
+        font-size: 10px;
+    }
+    footer{
+        height: 43px;
+        top: 800px;
+        
+    }
+    
+   
+  }
+  
+  /* Styles for screens between 601px and 1024px */
+  @media (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust dimensions here */
+    .element {
+      width: 40%;
+      height: auto;
+    }
+    .home{
+        width: 70%;
+        height: 150px;
+      
+    }
+
+    
+      
+    footer{
+        
+        position: relative;
+        right: 187px;
+    }
+  
+        
+    } 
+    .intro1{
+        font-size: 30px;
+    }
+    .intro2{
+        font-size: 30px;
+    }
+  
+  
+  /* Styles for screens larger than 1024px */
+  @media (min-width: 1025px) {
+    /* Adjust dimensions here */
+    .element {
+      width: 30%;
+      height: auto;
+    }
+    
+  }
+#skillsIcons{
+    position: relative;
+    top: 180px;
+    width: 1345px;
+    margin: -5px;
+    padding: 48px;
+    height: 188px;
+    left: 23px;
+}
+#htmlIcon {
+    font-weight: 400;
+    font-size: 116px;
+    height: 114px;
+    width: 100px;;
+}
+#rowSkills{
+    width: 1300px;
+    height: 500px;
+    position: relative;
+    top: 3px;
+}
+#card1{
+  
+    height: 121px;
+    width: 152px;
+    margin: 20px;
+}
+#javaimg{
+    width: 108px;
+    height: 76px;
+}
+.langs{
+    text-align: center;
+}
+#pythonimg{
+    width: 108px;
+    height: 76px;
+}
+#Cimg{
+    width: 108px;
+    height: 76px;
+}
+#htmlimg{
+    width: 108px;
+    height: 76px;
+}
+#cssimg{
+    width: 108px;
+    height: 76px;
+}
+#javascriptimg{
+    width: 108px;
+    height: 76px;
+}
+#reactimg{
+    width: 108px;
+    height: 76px;
+}
+#mysqlimg{
+    width: 115px;
+    height: 80px;
+   
+}
+.langs:hover{
+    color: white;
+}
+#card1{
+    cursor: pointer;
+}
+#card1:hover{
+    border-bottom: 2px solid white;
+}
+#mysqlimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+   
+}
+#reactimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+   
+}
+#javascriptimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+   
+}
+#cssimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+   
+}
+#htmlimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+   
+}
+#Cimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+}
+#pythonimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+   
+}
+#javaimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+   
+}
+#djangoimg{
+    width: 108px;
+    height: 76px;
+}
+#djangoimg:hover{
+    width: 130px;
+    height: 90px;
+    background-color: white;
+}
+#nodejsimg{
+    width: 138px;
+    height: 76px;
+}
+#nodejsimg:hover{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+}
+#expressjsimg{
+    width: 138px;
+    height: 76px;
+}
+#expressjsimg:hover{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+}
+#mongoDBimg{
+    width: 138px;
+    height: 76px;
+}
+#mongoDBimg:hover{
+    width: 150px;
+    height: 90px;
+    background-color: white;
+}
+.personaldetail{
+    position: relative;
+    top: 88px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.emailLink:hover{
+    
+    color: white;
+    border-bottom: 2px solid black;
+}
+.phno:hover{
+    color: white;
+    border-bottom: 2px solid black;
+}
+.backbtn{
+    width: 100px;
+    height: 39px;
+    border-radius: 36px;
+    position: relative;
+    top: 30px;
+}
+.backbtn{
+   color: white;
+   background-color: black;
+}
+.backbtn:hover{
+    color: black;
+    background-color: white;
+ }
