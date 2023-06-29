@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/professionalcareer/static/css/main.fbb04705.css",
+    "main.js": "/professionalcareer/static/js/main.77168c0d.js",
+    "static/js/787.7d6907bd.chunk.js": "/professionalcareer/static/js/787.7d6907bd.chunk.js",
+    "static/media/Resume.pdf": "/professionalcareer/static/media/Resume.3457628af5317f493d01.pdf",
+    "static/media/fa-solid-900.ttf": "/professionalcareer/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/professionalcareer/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/professionalcareer/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/professionalcareer/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/professionalcareer/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/professionalcareer/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/mysql.png": "/professionalcareer/static/media/mysql.e27a74cedbee3a41652f.png",
+    "static/media/mongoDB.svg": "/professionalcareer/static/media/mongoDB.15fe4efba08d6388c62695c4c68f8b0c.svg",
+    "static/media/django.png": "/professionalcareer/static/media/django.88660628406f6817598e.png",
+    "static/media/fa-v4compatibility.ttf": "/professionalcareer/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/nodejs.svg": "/professionalcareer/static/media/nodejs.49abecede47c39ad437ead32ffc5894f.svg",
+    "static/media/fa-v4compatibility.woff2": "/professionalcareer/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/react.svg": "/professionalcareer/static/media/react.287ed079d67ebccd2b751239d6ad0a4f.svg",
+    "index.html": "/professionalcareer/index.html",
+    "static/media/java.svg": "/professionalcareer/static/media/java.2ea3f917c044f5693cd6279edde3418b.svg",
+    "static/media/python.svg": "/professionalcareer/static/media/python.4ef15642311a0cfef079a074eeb0d3ae.svg",
+    "static/media/js.svg": "/professionalcareer/static/media/js.71f20c356f194cb15b5f02d94a7c2650.svg",
+    "static/media/expressjs.svg": "/professionalcareer/static/media/expressjs.13e4b3884f318c648bfe0207aa64c8dc.svg",
+    "static/media/C.svg": "/professionalcareer/static/media/C.88ce825cd0ae5f9d870c94b8579ab970.svg",
+    "static/media/css.svg": "/professionalcareer/static/media/css.1072a59dad7bcd4e8c82de4fca0cb597.svg",
+    "static/media/html5.svg": "/professionalcareer/static/media/html5.df324691481d1b1c9b1fbe01f8563975.svg",
+    "main.fbb04705.css.map": "/professionalcareer/static/css/main.fbb04705.css.map",
+    "main.77168c0d.js.map": "/professionalcareer/static/js/main.77168c0d.js.map",
+    "787.7d6907bd.chunk.js.map": "/professionalcareer/static/js/787.7d6907bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbb04705.css",
+    "static/js/main.77168c0d.js"
+  ]
+}
