@@ -2,6 +2,14 @@
     background-color: #008080;
     margin: 0;
     padding: 0;
+    background-color: green;
+   
+}
+#row{
+    
+        width: 568px;
+        height: 1164px;
+    
 }
 .container{
     color: white;
@@ -13,8 +21,8 @@
   
   }
 .navbar{
-    display: inline;
-    border-bottom: 3px solid black;
+    display:inline;
+   
     
     
 }
@@ -321,13 +329,18 @@ footer{
 }
 
 
+
 /* Styles for screens smaller than 600px */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     /* Adjust dimensions here */
     .element {
       width: 100%;
       height: auto;
     }
+    .navbar{
+        width: 500px;
+    }
+   
     .home{
         width: 50%;
         height: 200px;
@@ -375,7 +388,7 @@ footer{
     }
     footer{
         height: 43px;
-        top: 800px;
+        top: 900px;
         
     }
     
@@ -389,28 +402,26 @@ footer{
       width: 40%;
       height: auto;
     }
-    .home{
-        width: 70%;
-        height: 150px;
-      
-    }
+   
 
     
       
     footer{
         
         position: relative;
-        right: 187px;
+        right: 20px;
+        top: 1600px;
     }
-  
-        
-    } 
     .intro1{
         font-size: 30px;
     }
     .intro2{
         font-size: 30px;
     }
+  
+        
+    } 
+    
   
   
   /* Styles for screens larger than 1024px */
