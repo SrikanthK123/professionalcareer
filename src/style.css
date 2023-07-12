@@ -1,9 +1,17 @@
 *{
-  
-    margin: 0;
+     margin: 0;
     padding: 0;
-    background-color: green;
+  background-color: #008080;
    
+}
+
+  
+    
+  
+.container{
+    width: 1000px;
+    height: 1100px;
+    
 }
 #row{
     
@@ -44,11 +52,12 @@
 
 .home{
     width: 100%;
-    height: 311px;
+    height: 60rem;
     position: relative;
     top: 77px;
     padding: 139px;
     padding-left: 70px;
+    
 }
 .nameTitle h4 {
     color: white;
@@ -56,7 +65,18 @@
     font-size: 40px;
     cursor: pointer;
     width: 328px;
+    text-align: justify;
 }
+.p1{
+    font-size: 22px;
+}
+.p2{
+    font-size: 22px;
+}
+.p3{
+    font-size: 22px;
+}
+
     
 
 .nameTitle h4:hover{
@@ -69,6 +89,7 @@
     font-size: 20px;
     position: relative;
     bottom: 77px;
+    text-align: justify;
 }
 .nameTitle p span{
     color: #FFFAF0;
@@ -118,7 +139,7 @@
     width: 500px;
 }
 .Projectbtn{
-    width: 115px;
+    width: 145px;
     height: 35px;
     border-radius: 27px;
     position: relative;
@@ -250,9 +271,8 @@ footer{
     
 }
 
-.Skills{
-    width: 100%;
-    height: 311px;
+#Skills{
+    width: auto;
     position: relative;
     top: 77px;
     padding: 139px;
@@ -295,13 +315,14 @@ footer{
 }
  .row{
     position: relative;
-    top: 180px;
-    width: 1329px;
+    top: 146px;
+    width: 1229px;
     margin: -5px;
     padding: 48px;
     height: 188px;
-    left: 32px;
+    left: -7px;
 }
+
 .card1{
     border: 2px solid black;
     margin: 10px;
@@ -327,112 +348,495 @@ footer{
     border: 2px solid black;
     margin: 10px;
 }
+/* CSS for desktop devices */
 
-
-
-/* Styles for screens smaller than 600px */
-@media (max-width: 700px) {
-    /* Adjust dimensions here */
-    .element {
-      width: 100%;
-      height: auto;
-    }
-    .navbar{
-        width: 500px;
-    }
+ 
+  
+  /* CSS for tablets */
+  @media only screen and (max-width: 768px) {
+    
    
-    .home{
-        width: 50%;
-        height: 200px;
-       
+ 
+    html body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
-    .Navtitle {
-        font-size: 20px;
-        
+    footer{
+        width: 792px;
     }
-    .nameTitle  {
-        
-        width: 500px;
-        
+    .nameTitle
+    {
+        width: 658px;
+        height: 750px;
+        text-align: justify;
     }
     .nameTitle h4 {
-    font-size: 26px;
+   
+        font-size: 50px;
+        
     }
-    .nameTitle .intro1 {
-        font-size: 17px;
-        width: 343px;
+    .p1{
+        font-size: 20px;
     }
-    .nameTitle .intro2 {
-        font-size: 17px;
-        width: 343px;
+    .p2{
+        font-size: 20px;
+    }
+    .p3{
+        font-size: 20px;
+    }
+    .educationBtn {
+        width: 127px;
+        font-size: 12px;
+    }
+    .achievementsBtn {
+        width: 127px;
+        font-size: 12px;
     }
     .downloadbtn{
-        width: 80px;
-        height: 36px;
-        top: -70px;
+        top: -366px;
     }
-    .personaldetail h3 {
-        font-size: 18px;
-    position: relative;
-    top: -115px;
-    width: 370px;
+    .personaldetail{
+        top: --304px;
     }
-    .personaldetail .contactlabel {
-        font-size: 18px;
-        position: relative;
-        top: -115px;
-        width: 314px;
-    }
-    .text-center{
-        font-size: 10px;
-    }
-    footer{
-        height: 43px;
-        top: 900px;
-        
+    .col-sm-4 {
+            width: 260px;
+            height: 430px;
+            font-size: 6px;
     }
     
-   
-  }
-  
-  /* Styles for screens between 601px and 1024px */
-  @media (min-width: 601px) and (max-width: 1024px) {
-    /* Adjust dimensions here */
-    .element {
-      width: 40%;
-      height: auto;
+
+    .card-title {
+        font-size: 19px;
     }
+    .card-text {
+        font-size: 11px;
+        text-align: justify;
+    }
+    .Projectbtn{
+        left: 25px;
+    }
+     #rowSkills {
+        width: 100px;
+        height: 1080px;
+        left: -3px;
+        
+        
+    }
+    .emaillabel{
+        position: relative;
+        top: -408px;
+        
+    }
+    .contactlabel{
+        position: relative;
+        top: -408px;
+    }
+    .row #rowSkills{
+        width: 486px;
+    }
+    .accordion-body{
+        font-size: 7px;
+      }
+      .accordion-body-button{
+        font-size: 10px;
+      }
+      #Accordion{
+        font-size: 11px;
+      }
+      #EducationaTitle{
+        font-size: 20px;
+      }
+     #Btnid{
+        position: relative;
+        top: -402px;
+        left: 4px;
+        height: 27px;
+        width: 77px;
+        border-radius: 46px;
+        font-size: 10px
+     }
+     #accordionExample{
+        width: 250px;
+     }
+     .AchievementsTitle h4{
+        font-size: 25px;
+     }
+     #Achievesid{
+        font-size: 20px;
+     }
+     #BtnAchieve{
+        height: 27px;
+        width: 77px;
+        border-radius: 46px;
+        font-size: 10px
+     }
+
+  }
+  @media only screen and (max-width: 991px) {
+    
+   
+ 
+    html body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    footer{
+        width: 792px;
+    }
+    .nameTitle
+    {
+        width: 658px;
+        height: 750px;
+        text-align: justify;
+    }
+    .nameTitle h4 {
+   
+        font-size: 50px;
+        
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .p2{
+        font-size: 20px;
+    }
+    .p3{
+        font-size: 20px;
+    }
+    .educationBtn {
+        width: 127px;
+        font-size: 12px;
+    }
+    .achievementsBtn {
+        width: 127px;
+        font-size: 12px;
+    }
+    .downloadbtn{
+        top: -366px;
+    }
+    .personaldetail{
+        top: --304px;
+    }
+    .col-sm-4 {
+            width: 260px;
+            height: 430px;
+            font-size: 6px;
+    }
+    
+
+    .card-title {
+        font-size: 19px;
+    }
+    .card-text {
+        font-size: 11px;
+        text-align: justify;
+    }
+    .Projectbtn{
+        left: 25px;
+    }
+     #rowSkills {
+        width: 100px;
+        height: 1080px;
+        left: -3px;
+        
+        
+    }
+    .emaillabel{
+        position: relative;
+        top: -408px;
+        
+    }
+    .contactlabel{
+        position: relative;
+        top: -408px;
+    }
+    .row #rowSkills{
+        width: 486px;
+    }
+
+  }
+  @media only screen and (max-width: 300px) {
+   /**{
+    background-color: rgb(84, 105, 105);
+   }*/
+   .home{
+    width: 19rem;
+    
+}
+.nameTitle{
+    width: 13rem;
+    font-size: 14px;
+    left: -23px;
+    height: 36rem;
+    text-align: justify;
+}
+.nameTitle h4{
+    width: 12rem;
+    font-size: 28px;
+}
+.downloadbtn{
+    
+    width: 6rem;
+    height: 2rem;
+    
+}
+.emaillabel{
+    width: 12rem;
+    font-size: 9px;
+    left: -13px;
+}
+.contactlabel{
+    width: 10rem;
+    font-size: 9px;
+    left: -13px;
+}
+.Navtitle{
+    font-size: 20px;
+}
+footer{
+    width: 19rem;
+}
+.p1{
+    width: 13rem;
+    font-size: 8px;
+        padding: 7px;
+}
+.p2{
+    width: 13rem;
+    font-size: 8px;
+        padding: 9px;
+}
+.p3{
+    width: 13rem;
+    font-size: 8px;
+        padding: 7px;
+}
+.educationBtn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 6px;
+}
+.achievementsBtn{
+    width: 4rem;
+    height: 2rem;
+    font-size: 6px;
+}
+.container{
+    width: 19rem;
+}
+.projectTitle{
+    width: 10rem;
+    font-size: 29px;
+    height: 3rem;
+}
+.row{
+    width: 16rem;
+}
+.card-title{
+    font-size: 10px;
+}
+.card-body{
+    height: 18rem;
+}
+.card-text{
+    
+    height: 11rem;
+    font-size: 8px;
+    padding: -3px;
+    text-align: justify;
+}
+.Projectbtn{
+    width: 4rem;
+    height: 1rem;
+    font-size: 5px;
+    top: 9px;
+    left: 15px;
+}
+.card{
+   width: 11rem; 
+   left: -12px;
+}
+.col-sm-4 {
+    width: 260px;
+    height: 348px;
+    font-size: 6px;
+}
+
+.row #rowSkills{
+    width: 13rem;
+}
+.skillsTitle h4{
+    font-size: 28px;
+}
+.container #ContainerSkills{
+    width: 15rem;
+    
+}
+.row #rowSkills{
+    
+    width: 13rem;
+    height: 60rem;
+}
+#card1{
+    width: 8rem;
+    height: 6rem;
+    position: relative;
+    left: -43px;
+}
+#pythonimg{
+    width: 2rem;
+}
+#javaimg{
+    width: 2rem;
+}
+#Cimg{
+    width: 2rem;
+}
+#htmlimg{
+    width: 2rem;
+}
+#cssimg{
+    width: 2rem;
+}
+#javascriptimg{
+    width: 2rem;
+}
+#reactimg{
+    width: 2rem;
+}
+#mysqlimg{
+    width: 2rem;
+}
+#djangoimg{
+    width: 2rem;
+}
+#nodejsimg{
+    width: 2rem;
+}
+#expressjsimg{
+    width: 2rem;
+}
+#mongoDBimg{
+    width: 2rem;
+}
+#card1 a h5{
+    font-size: 14px;
+}
+#rowSkills .col-sm-4 {
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+  }
+  .langs{
+    height: 2rem;
+    width: 7rem;
+    margin: 3px
+  }
+  footer {
+    font-size: 12px;
+    padding: 0.5rem;
+    position: relative;
+    top: 1026px;
+    width: 20rem;
+    left: -7px;
+  }
+  .accordion-body{
+    font-size: 7px;
+  }
+  .accordion-body-button{
+    font-size: 10px;
+  }
+  #Accordion{
+    font-size: 11px;
+  }
+  #EducationaTitle{
+    font-size: 20px;
+  }
+ #Btnid{
+    position: relative;
+    top: -375px;
+    left: -22px;
+    height: 27px;
+    width: 77px;
+    border-radius: 46px;
+    font-size: 10px
+ }
+ #accordionExample{
+    width: 205px;
+ }
+ .AchievementsTitle h4{
+    font-size: 25px;
+ }
+ #Achievesid{
+    font-size: 13px;
+ }
+ #BtnAchieve{
+    height: 27px;
+    width: 77px;
+    border-radius: 46px;
+    font-size: 10px
+ }
+
+    }
+
+    @media (max-width: 650px) {
+        .nameTitle {
+          font-size: 24px;
+        }
+      
+        .intro1,
+        .intro2 {
+          font-size: 16px;
+        }
+      
+        .downloadbtn {
+          font-size: 14px;
+          padding: 0.3rem 0.8rem;
+        }
+      
+        .emaillabel,
+        .contactlabel {
+          font-size: 14px;
+        }
+        #card1 {
+            width: 50%;
+          }
+          #rowSkills .col-sm-4 {
+            flex-basis: 60%;
+            margin-bottom: 1rem;
+          }
+          #rowSkills .col-sm-4 {
+            flex-basis: 100%;
+            margin-bottom: 1rem;
+          }
+          .langs{
+            height: 2rem;
+            width: 7rem;
+            margin: 3px
+          }
+          footer {
+            font-size: 12px;
+            padding: -0.5rem;
+            position: relative;
+            top: 1026px;
+            width: 24rem;
+            left: 9px;
+          }
+          
+      }
+      @media only screen and (max-width: 768px) {
+        .nameTitle{
+            text-align: justify;
+        }
+      }
+
    
 
-    
-      
-    footer{
-        
-        position: relative;
-        right: 20px;
-        top: 1600px;
-    }
-    .intro1{
-        font-size: 30px;
-    }
-    .intro2{
-        font-size: 30px;
-    }
-  
-        
-    } 
-    
-  
-  
-  /* Styles for screens larger than 1024px */
-  @media (min-width: 1025px) {
-    /* Adjust dimensions here */
-    .element {
-      width: 30%;
-      height: auto;
-    }
-    
-  }
 #skillsIcons{
     position: relative;
     top: 180px;
@@ -448,11 +852,14 @@ footer{
     height: 114px;
     width: 100px;;
 }
-#rowSkills{
-    width: 1300px;
-    height: 500px;
+#rowSkills {
+    width: 1144px;
+    height: 544px;
     position: relative;
     top: 3px;
+    left: 1px;
+    margin-top: 20px;
+    
 }
 #card1{
   
@@ -605,6 +1012,10 @@ a{
     color: white;
     border-bottom: 2px solid black;
 }
+.phno{
+    color: black;
+    
+}
 .backbtn{
     width: 100px;
     height: 39px;
@@ -619,4 +1030,9 @@ a{
 .backbtn:hover{
     color: black;
     background-color: white;
+ }
+  #ContainerSkills{
+    width: 75rem;
+    height: 50rem;
+   
  }

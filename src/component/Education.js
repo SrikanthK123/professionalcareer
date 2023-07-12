@@ -4,10 +4,10 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 const Education = () => {
   return (
-    <div>
+    <div className="container">
       <div className="home">
         <div className="nameTitle">
-          <h4 className="edutitle">Educational Details</h4>
+          <h4 className="edutitle" id="EducationaTitle">Educational Details</h4>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -19,6 +19,7 @@ const Education = () => {
                   data-bs-target="#collapseOne"
                   aria-expanded="true"
                   aria-controls="collapseOne"
+                  id="Accordion"
                 >
                   Under Graduation
                 </button>
@@ -47,6 +48,7 @@ const Education = () => {
                   data-bs-target="#collapseTwo"
                   aria-expanded="false"
                   aria-controls="collapseTwo"
+                  id="Accordion"
                 >
                 Intermediate 
                 </button>
@@ -73,6 +75,7 @@ const Education = () => {
                   data-bs-target="#collapseThree"
                   aria-expanded="false"
                   aria-controls="collapseThree"
+                  id="Accordion"
                 >
                   	School  
                 </button>
@@ -92,7 +95,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <a href="/about"><button className="backbtn" >Back</button></a>
+        <a href="/about"><button className="backbtn" id="Btnid" >Back</button></a>
       </div>
     </div>
   );

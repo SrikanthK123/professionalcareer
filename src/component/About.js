@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 const About = () => {
   return (
+    <div className="container">
     <div className="home">
       <div className="nameTitle">
         <h4>About</h4>
@@ -38,6 +39,7 @@ const About = () => {
         <Link to="/education"><button className="educationBtn">Educational Details</button></Link>
         <Link to="/achievements"><button className="achievementsBtn">Achievements</button></Link>
       </div>
+    </div>
     </div>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='heightchange'>
+    <>
       <footer className="bg-light text-center text-white" >
 
   
@@ -15,7 +15,7 @@ const Footer = () => {
   </div>
  
 </footer>
-    </div>
+    </>
   )
 }
 

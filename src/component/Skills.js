@@ -15,11 +15,13 @@ import img12 from'../images/mongoDB.svg'
 const Skills = () => {
   return (
     <>
-      <div className="Skills">
+    <div className="container" id="Skills">
+      
         <div className="skillsTitle">
           <h4>Skills</h4>
-          
+          <div className="container" id="ContainerSkills">
             <div className="row" id="rowSkills">
+              
               <div className="col-sm-4" id="card1">
               <img id="pythonimg" src={img1} className="card-img-top" alt="..."/>
              <a href='https://www.python.org/'><h5 className="langs">Python</h5></a>
@@ -71,8 +73,11 @@ const Skills = () => {
               
               
             </div>
+            </div>
           </div>
-        </div>
+          </div>
+        
+        
       
     </>
   );

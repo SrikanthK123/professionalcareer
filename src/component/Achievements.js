@@ -19,6 +19,7 @@ const Achievements = () => {
                   data-bs-target="#collapseOne"
                   aria-expanded="true"
                   aria-controls="collapseOne"
+                  id="Achievesid"
                 >
                   TCS CodeVita Season
                 </button>
@@ -50,6 +51,7 @@ const Achievements = () => {
                   data-bs-target="#collapseTwo"
                   aria-expanded="false"
                   aria-controls="collapseTwo"
+                  id="Achievesid"
                 >
                   TCS National Qualifier Test
                 </button>
@@ -71,7 +73,7 @@ const Achievements = () => {
               </div>
             </div>
           </div>
-          <a href="/about"><button className="backbtn" >Back</button></a>
+          <a href="/about"><button className="backbtn"id="BtnAchieve" >Back</button></a>
         </div>
       </div>
     </>
