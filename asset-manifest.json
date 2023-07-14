@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/professionalcareer/static/css/main.fbb04705.css",
-    "main.js": "/professionalcareer/static/js/main.77168c0d.js",
+    "main.css": "/professionalcareer/static/css/main.1d9cc4fd.css",
+    "main.js": "/professionalcareer/static/js/main.0e2cb108.js",
     "static/js/787.7d6907bd.chunk.js": "/professionalcareer/static/js/787.7d6907bd.chunk.js",
     "static/media/Resume.pdf": "/professionalcareer/static/media/Resume.3457628af5317f493d01.pdf",
     "static/media/fa-solid-900.ttf": "/professionalcareer/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -25,12 +25,12 @@
     "static/media/C.svg": "/professionalcareer/static/media/C.88ce825cd0ae5f9d870c94b8579ab970.svg",
     "static/media/css.svg": "/professionalcareer/static/media/css.1072a59dad7bcd4e8c82de4fca0cb597.svg",
     "static/media/html5.svg": "/professionalcareer/static/media/html5.df324691481d1b1c9b1fbe01f8563975.svg",
-    "main.fbb04705.css.map": "/professionalcareer/static/css/main.fbb04705.css.map",
-    "main.77168c0d.js.map": "/professionalcareer/static/js/main.77168c0d.js.map",
+    "main.1d9cc4fd.css.map": "/professionalcareer/static/css/main.1d9cc4fd.css.map",
+    "main.0e2cb108.js.map": "/professionalcareer/static/js/main.0e2cb108.js.map",
     "787.7d6907bd.chunk.js.map": "/professionalcareer/static/js/787.7d6907bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbb04705.css",
-    "static/js/main.77168c0d.js"
+    "static/css/main.1d9cc4fd.css",
+    "static/js/main.0e2cb108.js"
   ]
 }
