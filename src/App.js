@@ -21,7 +21,7 @@ function App() {
     <Router>
       <NavBar/>
       <Switch>
-        <Route exact path="/"><Home/></Route>
+        <Route exact path="/professionalcareer"><Home/></Route>
         <Route exact path="/projects"><Projects/></Route>
         <Route exact path="/about"><About/></Route>
         <Route exact path="/education"><Education/></Route>
