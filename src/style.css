@@ -353,9 +353,24 @@ footer{
  
   
   /* CSS for tablets */
+ /* @media (max-width: 649px) {
+    footer {
+      position: fixed;
+      
+      right: 0;
+      bottom: 0;
+      width: 603px;
+      left: 1px;
+    }
+  }*/
   @media only screen and (max-width: 768px) {
     
-   
+   *{
+    background-color: white;
+   }
+   #footerbg{
+    background-color: white;
+   }
  
     html body{
         height: 100%;
@@ -376,16 +391,38 @@ footer{
     .nameTitle h4 {
    
         font-size: 50px;
+        color: #1C3630;
         
     }
+    .nameTitle p span{
+        color:#008080
+    }
+   
+    .intro1{
+        color: #1C3630;
+    }
+    .intro2{
+        color: #1C3630;
+    }
+    .namecopyright{
+        color: #1C3630;
+    }
+    .Navtitle{
+       color: #1C3630;
+    }
+    
     .p1{
         font-size: 20px;
+        color: #1C3630;
+        
     }
     .p2{
         font-size: 20px;
+        color: #1C3630;
     }
     .p3{
         font-size: 20px;
+        color: #1C3630;
     }
     .educationBtn {
         width: 127px;
@@ -473,6 +510,10 @@ footer{
         border-radius: 46px;
         font-size: 10px
      }
+     .projectTitle{
+        color: #1C3630;
+     }
+
 
   }
   @media only screen and (max-width: 991px) {
@@ -532,10 +573,19 @@ footer{
 
     .card-title {
         font-size: 19px;
+        color: #1C3630;
+    }
+    .accordion-body{
+        color: #1C3630;
+        font-size: 11px;
+    }
+    #Achievesid{
+        font-size: 15px;
     }
     .card-text {
         font-size: 11px;
         text-align: justify;
+        color: #1C3630;
     }
     .Projectbtn{
         left: 25px;

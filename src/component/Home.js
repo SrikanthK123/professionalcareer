@@ -7,7 +7,7 @@ const Home = () => {
     <div className='home'>
      <div className='nameTitle'>
         <h4>Hey Guys!</h4>
-        <p className='intro1'>I'm from Hyderabad, recently I completed my graduation in <span>BTech</span> Cse background.</p>
+        <p className='intro1'>I'm from Hyderabad, recently I completed my graduation in <span className='btechspan'>BTech</span> Cse background.</p>
         <p className='intro2'>To pursue a successful career in an esteemed organization,that utilizes my skills and smart working capability for its advancement and at the same time fasten my growth, both professionally and personally. </p>
 
      </div>
