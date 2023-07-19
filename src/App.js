@@ -14,6 +14,9 @@ import Footer from './component/Footer';
 import Education from './component/Education';
 import Achievements from './component/Achievements';
 import Skills from './component/Skills';
+// Importing the Bootstrap CSS file
+//import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (

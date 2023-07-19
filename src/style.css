@@ -43,11 +43,8 @@
     text-decoration: none;
 }
 .navbar ul li a:hover{
-   background-color: black;
-   
+  background-color: white;
   
-   
-    
 }
 
 .home{
@@ -365,9 +362,7 @@ footer{
   }*/
   @media only screen and (max-width: 768px) {
     
-   *{
-    background-color: white;
-   }
+  
    #footerbg{
     background-color: white;
    }
@@ -391,38 +386,27 @@ footer{
     .nameTitle h4 {
    
         font-size: 50px;
-        color: #1C3630;
+        
         
     }
     .nameTitle p span{
-        color:#008080
+        color: black;
     }
    
-    .intro1{
-        color: #1C3630;
-    }
-    .intro2{
-        color: #1C3630;
-    }
-    .namecopyright{
-        color: #1C3630;
-    }
-    .Navtitle{
-       color: #1C3630;
-    }
+    
     
     .p1{
         font-size: 20px;
-        color: #1C3630;
+        
         
     }
     .p2{
         font-size: 20px;
-        color: #1C3630;
+        
     }
     .p3{
         font-size: 20px;
-        color: #1C3630;
+        
     }
     .educationBtn {
         width: 127px;
