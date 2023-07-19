@@ -595,12 +595,17 @@ footer{
     .row #rowSkills{
         width: 486px;
     }
+    #Skills{
+
+    }
 
   }
   @media only screen and (max-width: 991px) {
     *{
         background-color: white;
     }
+   
+    
   }
   @media only screen and (max-width: 300px) {
    /**{
@@ -610,6 +615,7 @@ footer{
     width: 19rem;
     
 }
+
 .nameTitle{
     width: 13rem;
     font-size: 14px;
