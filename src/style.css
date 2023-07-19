@@ -557,10 +557,10 @@ footer{
 
     .card-title {
         font-size: 19px;
-        color: #1C3630;
+       
     }
     .accordion-body{
-        color: #1C3630;
+       
         font-size: 11px;
     }
     #Achievesid{
@@ -569,7 +569,7 @@ footer{
     .card-text {
         font-size: 11px;
         text-align: justify;
-        color: #1C3630;
+        
     }
     .Projectbtn{
         left: 25px;
